@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface CocoView : UIView
-
+-(void)setTheCornerRadius:(CGFloat)cor;
 @end

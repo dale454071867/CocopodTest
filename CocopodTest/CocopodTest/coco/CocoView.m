@@ -17,5 +17,9 @@
     // Drawing code
 }
 */
-
+-(void)setTheCornerRadius:(CGFloat)cor
+{
+    self.clipsToBounds = YES;
+    self.layer.cornerRadius = cor;
+}
 @end

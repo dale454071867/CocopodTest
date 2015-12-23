@@ -15,6 +15,7 @@
 		4A7E8F121C2A703100591D8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A7E8F101C2A703100591D8A /* LaunchScreen.storyboard */; };
 		4A7E8F1D1C2A703100591D8A /* CocopodTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7E8F1C1C2A703100591D8A /* CocopodTestTests.m */; };
 		4A7E8F281C2A703100591D8A /* CocopodTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7E8F271C2A703100591D8A /* CocopodTestUITests.m */; };
+		4A7E8F381C2A739B00591D8A /* CocoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7E8F371C2A739B00591D8A /* CocoView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		4A7E8F231C2A703100591D8A /* CocopodTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocopodTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A7E8F271C2A703100591D8A /* CocopodTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocopodTestUITests.m; sourceTree = "<group>"; };
 		4A7E8F291C2A703100591D8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A7E8F361C2A739B00591D8A /* CocoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoView.h; sourceTree = "<group>"; };
+		4A7E8F371C2A739B00591D8A /* CocoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CocoView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		4A7E8F011C2A703100591D8A /* CocopodTest */ = {
 			isa = PBXGroup;
 			children = (
+				4A7E8F351C2A738700591D8A /* coco */,
 				4A7E8F051C2A703100591D8A /* AppDelegate.h */,
 				4A7E8F061C2A703100591D8A /* AppDelegate.m */,
 				4A7E8F081C2A703100591D8A /* ViewController.h */,
@@ -138,6 +142,15 @@
 				4A7E8F291C2A703100591D8A /* Info.plist */,
 			);
 			path = CocopodTestUITests;
+			sourceTree = "<group>";
+		};
+		4A7E8F351C2A738700591D8A /* coco */ = {
+			isa = PBXGroup;
+			children = (
+				4A7E8F361C2A739B00591D8A /* CocoView.h */,
+				4A7E8F371C2A739B00591D8A /* CocoView.m */,
+			);
+			path = coco;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A7E8F381C2A739B00591D8A /* CocoView.m in Sources */,
 				4A7E8F0A1C2A703100591D8A /* ViewController.m in Sources */,
 				4A7E8F071C2A703100591D8A /* AppDelegate.m in Sources */,
 				4A7E8F041C2A703100591D8A /* main.m in Sources */,
